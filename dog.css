@@ -418,7 +418,7 @@
   @media (min-width: 1200px) {}
   
 
-  #dogTypeContainer {
+  /* #dogTypeContainer {
       width: 100%;
       height: 100%;
       display: flex;
@@ -429,4 +429,20 @@
 
   .dogTypeSpace {
       margin: 0 10px 0 0;
+  } */
+
+
+#dogTypeContainer {
+    display: flex;
+    justify-content: space-between;
   }
+
+#dogPicContainer {
+  display: flex;
+}
+
+#centerPic {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
