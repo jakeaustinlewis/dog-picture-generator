@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ajax Hero</title>
+
+    <!-- <script defer src="jquery-2.2.4.min.js"></script>
+    <script defer src="materialize.min.js"></script> -->
+    <script defer src="dog.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- <link rel="stylesheet" href="materialize.min.css"> -->
+    <link rel="stylesheet" href="dog.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Find A Pupper API</h1>
+
+        <hr>
+        <form action="">
+
+            <section id="dogTypeContainer">
+                <label for="typeOfDog" class="dogTypeSpace">Dog Type</label>
+                <input id="typeOfDog" class="dogTypeSpace" type="text" value="" placeholder="Type a type of Dog.">
+
+                <label for="searchDogButton"></label>
+                <input id="searchDogButton" class="button-primary" style="" type="button" value="Search Your Doggo!">
+            </section>
+
+        </form>
+
+        <h2>Results:</h2>
+        <div id="results" class="result-list">
+
+            <form action="">
+                <label for="dogPicture">Dog Picture</label>
+                <img id="dogPic" src="" alt="">
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
